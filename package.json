@@ -16,6 +16,7 @@
     "extract-text-webpack-plugin": "^0.9.1",
     "html-webpack-plugin": "^1.6.2",
     "http-server": "^0.8.5",
+    "open-cli": "^1.0.5",
     "path": "^0.12.7",
     "process": "^0.11.2",
     "react": "^0.13.3",
@@ -37,7 +38,9 @@
     "build": "sh ./scripts/build.sh",
     "start": "sh ./scripts/start.sh",
     "exercice1": "./node_modules/http-server/bin/http-server exercice1",
-    "exercice2": "./node_modules/http-server/bin/http-server exercice2"
+    "exercice2": "./node_modules/http-server/bin/http-server exercice2",
+    "exercice3": "./node_modules/.bin/webpack-dev-server --progress --colors --config webpack.dev.config.js",
+    "exercice4": "./node_modules/.bin/webpack-dev-server --progress --colors --config webpack.dev.config.js"
   },
   "license": "MIT",
   "main": "modules/index.js",
