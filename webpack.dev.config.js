@@ -5,7 +5,9 @@ module.exports = {
     devtool: 'eval',
     entry: {
         exercice3: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server','./exercice3'],
-        exercice4: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server','./exercice4']
+        exercice4: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server','./exercice4'],
+        exercice5: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server','./exercice5'],
+        exercice6: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server','./exercice6']
     },
     output: {
         path: path.join(__dirname, 'static'),

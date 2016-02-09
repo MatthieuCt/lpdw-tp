@@ -10,4 +10,4 @@ Voici une série de question (en vrac) sur ce que nous avons vu en cours. Elle n
 
 4. Pourquoi devrais-je utilser tous ces outils alors que je pourrais me contenter d'un bloc-note et d'un navigateur ?
 
-5. Pouvez vous me citez d'autres outils utiles au dévelopement front et ReactJS en particulier ?
+5. Pouvez vous me citez d'autres outils utiles au dévelopement Front et ReactJS en particulier ?
