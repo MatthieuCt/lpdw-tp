@@ -17,14 +17,12 @@
   <script type="text/babel">
   var Hello = React.createClass({
     render: function() {
-      return (
-        <h1>Hello, Matthieu!</h1>
-      );
-
+      return <h1>Hello, {this.props.name}</h1>;
     }
   });
+
   ReactDOM.render(
-    <Hello />,
+    <Hello name="Matthieu"/>,
     document.getElementById('exercice2')
   );
   </script>
