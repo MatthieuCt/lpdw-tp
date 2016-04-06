@@ -15,7 +15,6 @@ class App extends React.Component {
     this.state = {value: ""};
   }
   change(e) {
-    console.log(this.value);
     this.setState({value: e.target.value });
   }
   render() {

@@ -4,7 +4,7 @@
 Je peux le définir dans le constructor en utilisant 'this.state'.
 
 2. Quelle est la particularité du `state` dans un composant React ?
-La particularité de 'state' est qu'il recharge le render à chaque fois qu'il change.
+Le 'state' peut être changé dans la vue.
 
 3. Comment puis-je transférer la référence de mon objet (this) à une méthode lorsque j'utilise les attributs natif d'un élément tel que `onChange` ou `onClick` par exemple ?
 En utilisant la méthode bind avec comme paramètre 'this'.
